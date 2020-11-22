@@ -7,10 +7,7 @@ use Classes\AbstractBox;
 use Classes\FileBox;
 use Classes\DBbox;
 
-//$abst = new AbstractBox();
-//$abst->setData('ilyA', 'LOX');
-//$abst->setData('yarik', 'FRAER');
-//print_r($abst->getData('ilyA'));
+
 $file = new FileBox();
 
 $file->setData('6', 'six');
